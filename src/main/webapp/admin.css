@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.admin{
+    background-image: url(images/admin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.news, .events, .careers, .userresponse, .scrollnews, .king{
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    margin: 16px;
+}
+
+.tabcontent {
+   display: none;   
+}
+
+.tablink{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #fff;
+    color: blue;
+}
+#tab2{
+    width: 100%;
+    height: 700px;
+}
+table{
+	margin:auto;
+}
+.apt{
+    margin: 30px auto;
+}
+.editbtn{
+	text-decoration: none;
+	background-color: yellow;
+	color: #000;
+	font-family: sans-serif;
+}
+.addnew button{
+    padding:5px 20px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    margin: 25px;
+    border-radius: 10px;
+}
